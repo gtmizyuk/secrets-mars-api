@@ -1,2 +1,2 @@
 # secrets-mars-api
-Test API
+Таємниці Марса API
