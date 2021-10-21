@@ -3,7 +3,24 @@
 		{
 			"id": 0,
 			"title": "Обличчя на Марсі",
-			"missions": "Viking Orbiter 1976, Mars Global Surveyor 2001, Mars Express 2006, MRO/HiRISE 2007",
+			"missions": [
+				{
+					"name": "Viking Orbiter",
+					"date": "1976"
+				},
+				{
+					"name": "Mars Global Surveyor",
+					"date": "2001"
+				},
+				{
+					"name": "Mars Express",
+					"date": "2006"
+				},
+				{
+					"name": "MRO/HiRISE",
+					"date": "2007"
+				}
+			],
 			"location": "Cydonia Mensae",
 			"found": "Tobias Owen",
 			"image": "https://www.msss.com/mars_images/moc/extended_may2001/face/face_E03-00824_proc.gif",
@@ -13,7 +30,20 @@
 		{
 			"id": 1,
 			"title": "Піраміда D&M",
-			"missions": "Viking Orbiter 1976, Mars Global Surveyor 2001, Mars Express 2006",
+			"missions": [
+				{
+					"name": "Viking Orbiter",
+					"date": "1976"
+				},
+				{
+					"name": "Mars Global Surveyor",
+					"date": "2001"
+				},
+				{
+					"name": "Mars Express",
+					"date": "2006"
+				}
+			],
 			"location": "Cydonia Mensae",
 			"found": "Vince DiPietro and Greg Molenaar",
 			"image": "https://photojournal.jpl.nasa.gov/jpeg/PIA04745.jpg",
@@ -23,7 +53,20 @@
 		{
 			"id": 2,
 			"title": "Форт",
-			"missions": "Viking Orbiter 1976, Mars Global Surveyor 2001, Mars Express 2006",
+			"missions": [
+				{
+					"name": "Viking Orbiter",
+					"date": "1976"
+				},
+				{
+					"name": "Mars Global Surveyor",
+					"date": "2001"
+				},
+				{
+					"name": "Mars Express",
+					"date": "2006"
+				}
+			],
 			"location": "Cydonia Mensae",
 			"found": "Richard C. Hoagland",
 			"image": "https://photojournal.jpl.nasa.gov/jpeg/PIA04745.jpg",
@@ -33,7 +76,16 @@
 		{
 			"id": 3,
 			"title": "Шестикутник",
-			"missions": "THEMIS/Mars Odyssey 2002, Mars Express 2006",
+			"missions": [
+				{
+					"name": "THEMIS/Mars Odyssey",
+					"date": "2002"
+				},
+				{
+					"name": "Mars Express",
+					"date": "2006"
+				}
+			],
 			"location": "Cydonia Mensae",
 			"found": "M. J. Craig",
 			"image": "https://static.wixstatic.com/media/fcb662_21b6ad8e6a2145fc9d3132e19aae2739~mv2.jpg",
@@ -43,7 +95,12 @@
 		{
 			"id": 4,
 			"title": "П'ятірка",
-			"missions": "MRO/HiRISE 2008",
+			"missions": [
+				{
+					"name": "MRO/HiRISE",
+					"date": "2008"
+				}
+			],
 			"location": "Cydonia Mensae",
 			"found": "M. J. Craig",
 			"image": "https://static.wixstatic.com/media/fcb662_2787621e65414daa87a68119d4edd7de~mv2.jpg",
@@ -53,7 +110,16 @@
 		{
 			"id": 5,
 			"title": "Буква H",
-			"missions": "Mars Global Surveyor 2000, Mars Express 2006",
+			"missions": [
+				{
+					"name": "Mars Global Surveyor",
+					"date": "2000"
+				},
+				{
+					"name": "Mars Express",
+					"date": "2006"
+				}
+			],
 			"location": "Cydonia Mensae",
 			"found": "M. J. Craig",
 			"image": "https://static.wixstatic.com/media/fcb662_db683aea6cea4134985933a8418ce37d~mv2.jpg",
@@ -63,7 +129,16 @@
 		{
 			"id": 6,
 			"title": "Три кургани",
-			"missions": "Mars Global Surveyor April 1999",
+			"missions": [
+				{
+					"name": "Mars Global Surveyor",
+					"date": "April 1999"
+				},
+				{
+					"name": "Mars Express",
+					"date": "2006"
+				}
+			],
 			"location": "Terra Meridiani",
 			"found": "невідомо",
 			"image": "https://static.wixstatic.com/media/fcb662_489039e0d51c4470a63823e29a2d40aa~mv2.jpg",
@@ -73,7 +148,12 @@
 		{
 			"id": 7,
 			"title": "Прямокутний об'єкт",
-			"missions": "Mars Global Surveyor November 2001",
+			"missions": [
+				{
+					"name": "Mars Global Surveyor",
+					"date": "November 2001"
+				}
+			],
 			"location": "Arabia Terra",
 			"found": "Richard C. Hoagland",
 			"image": "https://static.wixstatic.com/media/fcb662_1f99312b9d764476bdb6f5ff560db4d0~mv2.jpg",
@@ -83,7 +163,12 @@
 		{
 			"id": 8,
 			"title": "Трубопроводи",
-			"missions": "Mars Global Surveyor January 2000",
+			"missions": [
+				{
+					"name": "Mars Global Surveyor",
+					"date": "January 2000"
+				}
+			],
 			"location": "Aram Chaos",
 			"found": "J. P. Skipper",
 			"image": "https://static.wixstatic.com/media/fcb662_26cd5cb29bd149ea81ab04ec2b16b13f~mv2.jpg",
@@ -93,7 +178,12 @@
 		{
 			"id": 9,
 			"title": "Гайковий ключ",
-			"missions": "Spirit Rover June 2005",
+			"missions": [
+				{
+					"name": "Spirit Rover",
+					"date": "June 2005"
+				}
+			],
 			"location": "Gusev Crater",
 			"found": "Rolf Varga",
 			"image": "https://mars.nasa.gov/mer/gallery/all/2/p/541/2P174390446EFFACB9P2298L5M1.JPG",
@@ -103,7 +193,12 @@
 		{
 			"id": 10,
 			"title": "Об'єкти поблизу гайкового ключа",
-			"missions": "Spirit Rover June 2005",
+			"missions": [
+				{
+					"name": "Spirit Rover",
+					"date": "June 2005"
+				}
+			],
 			"location": "Gusev Crater",
 			"found": "M. J. Craig",
 			"image": "https://static.wixstatic.com/media/fcb662_c76d4e3547a34e909c00477dd7e1ddbd~mv2.jpg",
@@ -113,7 +208,12 @@
 		{
 			"id": 11,
 			"title": "Артефакт звалища",
-			"missions": "Spirit Rover Jan 2004",
+			"missions": [
+				{
+					"name": "Spirit Rover",
+					"date": "Jan 2004"
+				}
+			],
 			"location": "Gusev Crater",
 			"found": "невідомо",
 			"image": "https://mars.nasa.gov/mer/gallery/all/2/p/015/2P127699373EFF0313P2549L7M1.JPG",
@@ -123,7 +223,12 @@
 		{
 			"id": 12,
 			"title": "Форма труби чи життя?",
-			"missions": "Spirit Rover Aug 2004",
+			"missions": [
+				{
+					"name": "Spirit Rover",
+					"date": "Aug 2004"
+				}
+			],
 			"location": "Gusev Crater",
 			"found": "невідомо",
 			"image": "https://mars.nasa.gov/mer/gallery/all/2/p/229/2P146694689EFF8600P2402L7M1.JPG",
@@ -133,7 +238,12 @@
 		{
 			"id": 13,
 			"title": "Зубчасте колесо",
-			"missions": "Spirit Rover Oct 2004",
+			"missions": [
+				{
+					"name": "Spirit Rover",
+					"date": "Oct 2004"
+				}
+			],
 			"location": "Gusev Crater",
 			"found": "Larry Roy",
 			"image": "https://mars.nasa.gov/mer/gallery/all/2/p/288/2P151930506EFF8987P2418L7M1.JPG",
@@ -143,7 +253,12 @@
 		{
 			"id": 14,
 			"title": "Коробка",
-			"missions": "Spirit Rover Dec 2007",
+			"missions": [
+				{
+					"name": "Spirit Rover",
+					"date": "Dec 2007"
+				}
+			],
 			"location": "Gusev Crater",
 			"found": "Maya",
 			"image": "https://mars.nasa.gov/mer/gallery/all/2/p/1419/2P252334537EFFAX00P2260R1M1.JPG",
@@ -153,7 +268,12 @@
 		{
 			"id": 15,
 			"title": "Хвостовий плавець",
-			"missions": "Spirit Rover Dec 2007",
+			"missions": [
+				{
+					"name": "Spirit Rover",
+					"date": "Dec 2007"
+				}
+			],
 			"location": "Gusev Crater",
 			"found": "Kevin Brant",
 			"image": "https://mars.nasa.gov/mer/gallery/all/2/p/1402/2P250825588EFFAW9DP2432R1M1.JPG",
@@ -163,7 +283,12 @@
 		{
 			"id": 16,
 			"title": "Посадкове сміття",
-			"missions": "Spirit Rover Feb 2004",
+			"missions": [
+				{
+					"name": "Spirit Rover",
+					"date": "Feb 2004"
+				}
+			],
 			"location": "Gusev Crater",
 			"found": "невідомо",
 			"image": "https://mars.nasa.gov/mer/gallery/all/2/n/036/2N129561872EFF0361P1617R0M1.JPG",
@@ -173,7 +298,12 @@
 		{
 			"id": 17,
 			"title": "Піраміда з каменів",
-			"missions": "Opportunity Rover March 2011",
+			"missions": [
+				{
+					"name": "Opportunity Rover",
+					"date": "March 2011"
+				}
+			],
 			"location": "Meridiani Planum",
 			"found": "невідомо",
 			"image": "https://mars.nasa.gov/mer/gallery/all/1/p/2467/1P347194239EFFB0Q0P2366L6M1.JPG",
@@ -183,7 +313,12 @@
 		{
 			"id": 18,
 			"title": "Піраміда з каменів",
-			"missions": "Spirit Rover Mar 2004",
+			"missions": [
+				{
+					"name": "Spirit Rover",
+					"date": "Mar 2004"
+				}
+			],
 			"location": "Gusev Crater",
 			"found": "Susan Rapp, multiple researchers",
 			"image": "https://mars.nasa.gov/mer/gallery/all/2/p/069/2P132498528EFF1800P2288L2M1.JPG",
@@ -193,7 +328,12 @@
 		{
 			"id": 19,
 			"title": "Купол",
-			"missions": "Opportunity Rover July 2015",
+			"missions": [
+				{
+					"name": "Opportunity Rover",
+					"date": "July 2015"
+				}
+			],
 			"location": "Rim of Endeavour Crater, near entrance of Marathon Valley",
 			"found": "David Gannett, Thomas M. S. Jensen",
 			"image": "http://areo.info/mer/opportunity/4385/1P517465968ESFCQFZP2369L5M1_L2L5L5L7L7.jpg",
@@ -203,7 +343,12 @@
 		{
 			"id": 20,
 			"title": "Руїни поселення 1",
-			"missions": "Mars Reconnaissance Orbiter/HiRISE March 2006",
+			"missions": [
+				{
+					"name": "Mars Reconnaissance Orbiter/HiRISE",
+					"date": "March 2006"
+				}
+			],
 			"location": "Південне високогір'я середньої широти",
 			"found": "Richard C. Hoagland",
 			"image": "https://static.wixstatic.com/media/fcb662_1c3ff06a69504586a9946a05ad36623b~mv2.jpg",
@@ -213,7 +358,12 @@
 		{
 			"id": 21,
 			"title": "Тетраедр",
-			"missions": "MRO/HiRISE March 2007",
+			"missions": [
+				{
+					"name": "Mars Reconnaissance Orbiter/HiRISE",
+					"date": "March 2007"
+				}
+			],
 			"location": "West Candor Chasma",
 			"found": "Keith Laney",
 			"image": "https://thehiddenmission.com/CandorTetrahedron/PSP_002841_1740Candor_Tetrahedron_color.jpg",
@@ -223,7 +373,12 @@
 		{
 			"id": 22,
 			"title": "Підповерхнева структура Фобоса",
-			"missions": "MRO/HiRISE March 2008",
+			"missions": [
+				{
+					"name": "Mars Reconnaissance Orbiter/HiRISE",
+					"date": "March 2008"
+				}
+			],
 			"location": "Phobos Moon, over Stickney Crater",
 			"found": "M. J. Craig",
 			"image": "https://static.wixstatic.com/media/fcb662_b9dc0a3772b84d1785ab1f9b23669e59~mv2.jpg",
@@ -233,7 +388,12 @@
 		{
 			"id": 23,
 			"title": "Обід колеса",
-			"missions": "Curiosity Rover Oct 2012",
+			"missions": [
+				{
+					"name": "Curiosity Rover",
+					"date": "Oct 2012"
+				}
+			],
 			"location": "Gale Crater",
 			"found": "невідомо",
 			"image": "https://static.wixstatic.com/media/fcb662_7d442cd866774560a6c5c40d1002f738~mv2.jpg",
@@ -243,7 +403,12 @@
 		{
 			"id": 24,
 			"title": "Крихітна турбіна",
-			"missions": "Curiosity Rover May 2015",
+			"missions": [
+				{
+					"name": "Curiosity Rover",
+					"date": "May 2015"
+				}
+			],
 			"location": "Gale Crater",
 			"found": "Rami Bar Ilan",
 			"image": "https://mars.nasa.gov/msl-raw-images/msss/01000/mcam/1000MR0044630400503600E02_DXXX.jpg",
@@ -253,7 +418,12 @@
 		{
 			"id": 25,
 			"title": "Маленький пірамідальний об’єкт",
-			"missions": "Curiosity Rover May 2015",
+			"missions": [
+				{
+					"name": "Curiosity Rover",
+					"date": "May 2015"
+				}
+			],
 			"location": "Gale Crater",
 			"found": "Rami Bar Ilan",
 			"image": "https://mars.nasa.gov/msl-raw-images/msss/00978/mcam/0978MR0043250040502821E01_DXXX.jpg",
@@ -263,7 +433,12 @@
 		{
 			"id": 26,
 			"title": "C-подібний об'єкт",
-			"missions": "Curiosity Rover Nov 2014",
+			"missions": [
+				{
+					"name": "Curiosity Rover",
+					"date": "Nov 2014"
+				}
+			],
 			"location": "Gale Crater",
 			"found": "Rami Bar Ilan",
 			"image": "https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA19066_hires.jpg",
@@ -273,7 +448,12 @@
 		{
 			"id": 27,
 			"title": "Дверний болт",
-			"missions": "Curiosity Rover Nov 2013",
+			"missions": [
+				{
+					"name": "Curiosity Rover",
+					"date": "Nov 2013"
+				}
+			],
 			"location": "Gale Crater",
 			"found": "Michael Ivey",
 			"image": "https://static.wixstatic.com/media/fcb662_16b485c9020544129fb0a87b008780f4~mv2.jpg",
@@ -283,7 +463,12 @@
 		{
 			"id": 28,
 			"title": "Колеса і вісь",
-			"missions": "Curiosity Rover Aug 2014",
+			"missions": [
+				{
+					"name": "Curiosity Rover",
+					"date": "Aug 2014"
+				}
+			],
 			"location": "Gale Crater",
 			"found": "Thomas M. S. Jensen",
 			"image": "https://static.wixstatic.com/media/fcb662_eb99a3b2c1c6463d9e19e1a0f4b09517~mv2.jpg",
@@ -293,7 +478,12 @@
 		{
 			"id": 29,
 			"title": "Насадка",
-			"missions": "Curiosity Rover Nov 2014",
+			"missions": [
+				{
+					"name": "Curiosity Rover",
+					"date": "Nov 2014"
+				}
+			],
 			"location": "Gale Crater",
 			"found": "невідомо",
 			"image": "https://mars.nasa.gov/msl-raw-images/msss/00821/mcam/0821MR0036170080500530E01_DXXX.jpg",
@@ -303,7 +493,12 @@
 		{
 			"id": 30,
 			"title": "Різьба по кладці",
-			"missions": "Curiosity Rover May 2015",
+			"missions": [
+				{
+					"name": "Curiosity Rover",
+					"date": "May 2015"
+				}
+			],
 			"location": "Gale Crater",
 			"found": "Rami Bar Ilan",
 			"image": "https://mars.nasa.gov/msl-raw-images/msss/00991/mcam/0991ML0043820010404528E01_DXXX.jpg",
@@ -313,7 +508,12 @@
 		{
 			"id": 31,
 			"title": "Амортизатор балки",
-			"missions": "Curiosity Rover Jan 2014",
+			"missions": [
+				{
+					"name": "Curiosity Rover",
+					"date": "Jan 2014"
+				}
+			],
 			"location": "Dingo Gap, Gale Crater",
 			"found": "невідомо",
 			"image": "https://static.wixstatic.com/media/fcb662_e8f2d8b3362547d9b511fc043a1e4cb4~mv2.jpg",
@@ -323,7 +523,12 @@
 		{
 			"id": 32,
 			"title": "Механічна фурнітура",
-			"missions": "Curiosity Rover Nov 2012",
+			"missions": [
+				{
+					"name": "Curiosity Rover",
+					"date": "Nov 2012"
+				}
+			],
 			"location": "Gale Crater",
 			"found": "Michael Ivey",
 			"image": "https://static.wixstatic.com/media/fcb662_5b92a21c9b334660a6b6cf3edc6d409a~mv2.jpg",
@@ -333,7 +538,12 @@
 		{
 			"id": 33,
 			"title": "Опорна плита",
-			"missions": "Curiosity Rover April 2014",
+			"missions": [
+				{
+					"name": "Curiosity Rover",
+					"date": "April 2014"
+				}
+			],
 			"location": "Gale Crater",
 			"found": "Rami Bar Ilan",
 			"image": "https://mars.nasa.gov/msl-raw-images/msss/00595/mcam/0595MR0025090390400725E01_DXXX.jpg",
@@ -343,7 +553,12 @@
 		{
 			"id": 34,
 			"title": "Рукоятка пристрою",
-			"missions": "Curiosity Rover July 2015",
+			"missions": [
+				{
+					"name": "Curiosity Rover",
+					"date": "July 2015"
+				}
+			],
 			"location": "Gale Crater",
 			"found": "Rami Bar Ilan/Gerald Turner",
 			"image": "https://static.wixstatic.com/media/fcb662_16eeb9b1e89e43c08beaad4124561fd6~mv2.jpg",
@@ -353,7 +568,12 @@
 		{
 			"id": 35,
 			"title": "Будівельний фундамент",
-			"missions": "Curiosity Rover Jan 2014",
+			"missions": [
+				{
+					"name": "Curiosity Rover",
+					"date": "Jan 2014"
+				}
+			],
 			"location": "Dingo Gap, Gale Crater",
 			"found": "невідомо",
 			"image": "https://mars.nasa.gov/msl-raw-images/msss/00529/mcam/0529MR0020960070303356E01_DXXX.jpg",
@@ -363,7 +583,12 @@
 		{
 			"id": 36,
 			"title": "Моноліт Фобоса",
-			"missions": "MOC/MGS",
+			"missions": [
+				{
+					"name": "Mars Global Surveyor/Mars Orbiter Camera",
+					"date": "невідомо"
+				}
+			],
 			"location": "Phobos Moon",
 			"found": "Efrain Palermo",
 			"image": "https://static.wixstatic.com/media/fcb662_1593cebcefbd4ac380b2207f010c9dd5~mv2.jpg",
@@ -373,7 +598,12 @@
 		{
 			"id": 37,
 			"title": "Руїни поселення 2",
-			"missions": "HiRISE/MRO Aug 2010",
+			"missions": [
+				{
+					"name": "Mars Reconnaissance Orbiter/HiRISE",
+					"date": "Aug 2010"
+				}
+			],
 			"location": "Atlantis Chaos",
 			"found": "Javed Raza",
 			"image": "https://static.wixstatic.com/media/fcb662_b27a40e9e43d4a5e874b3e180c443426~mv2_d_2963_2453_s_4_2.jpg",
@@ -383,7 +613,12 @@
 		{
 			"id": 38,
 			"title": "Полігональні об'єкти",
-			"missions": "HiRISE/MRO Aug 2010",
+			"missions": [
+				{
+					"name": "Mars Reconnaissance Orbiter/HiRISE",
+					"date": "Aug 2010"
+				}
+			],
 			"location": "Atlantis Chaos",
 			"found": "G. J. Haas, J. Raza, M. J. Craig",
 			"image": "https://static.wixstatic.com/media/fcb662_1af05baae66e41a69703a0e22ee4b33d~mv2_d_3468_2256_s_2.jpg",
@@ -393,7 +628,12 @@
 		{
 			"id": 39,
 			"title": "Заржавіла арматура",
-			"missions": "Curiosity Rover Sep 2016",
+			"missions": [
+				{
+					"name": "Curiosity Rover",
+					"date": "Sep 2016"
+				}
+			],
 			"location": "Gale Crater",
 			"found": "Multiple persons, including J. Singer",
 			"image": "https://static.wixstatic.com/media/fcb662_58fd4c8f5efc4c1ebaf9ffd23c308c0a~mv2.jpg",
@@ -403,7 +643,12 @@
 		{
 			"id": 40,
 			"title": "Замкова щілина",
-			"missions": "HiRISE/MRO Jan 2011",
+			"missions": [
+				{
+					"name": "Mars Reconnaissance Orbiter/HiRISE",
+					"date": "Jan 2011"
+				}
+			],
 			"location": "Libya Montes region, Latitude 6.042°, Longitude (East) 92.076°",
 			"found": "George J. Haas, Greg Orme",
 			"image": "https://static.wixstatic.com/media/fcb662_d59320db028a46cc895746bba8be42d6~mv2.jpg",
@@ -413,7 +658,12 @@
 		{
 			"id": 41,
 			"title": "Піраміда кратера",
-			"missions": "Mars Odyssey/THEMIS Jan 2006",
+			"missions": [
+				{
+					"name": "Mars Odyssey/THEMIS",
+					"date": "Jan 2006"
+				}
+			],
 			"location": "Deuteronilius Mensae, Center Latitude 46.387997°, Center Longitude 6.755114°",
 			"found": " John E. Brandenburg",
 			"image": "https://static.wixstatic.com/media/fcb662_c5a1d72d3c5d4020828961c87a23976b~mv2.png",
