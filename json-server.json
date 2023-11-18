@@ -1,3 +1,4 @@
 {
-    "static": "./public"
+    "static": "./public",
+    "secrets": "./secrets"
 }

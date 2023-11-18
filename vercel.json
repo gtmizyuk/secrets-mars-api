@@ -14,10 +14,10 @@
       "src" : "/(.*)" , 
       "dest" : "server.js"
     },
-    { 
-      "src" : "/secrets" , 
-      "dest" : "/secrets/index.html"
-    } 
-    
+    {
+      "src": "/secrets",
+      "headers": { "cache-control": "s-maxage=1000" },
+      "dest": "/index.html"
+    }    
   ] 
 }
