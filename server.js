@@ -9,6 +9,11 @@ const middlewares = jsonServer.defaults({
 const port = process.env.PORT || 3000;
 
 server.use(middlewares)
+
+server.get('/secrets', (req, res) => {
+    res.redirect(path.join(__dirname, './secrets/index.html'))
+})
+
 server.use(jsonServer.rewriter({
   "/api/*": "/$1",
   "/mysteries/:id": "/mysteries/:id",
