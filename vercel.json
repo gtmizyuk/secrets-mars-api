@@ -16,8 +16,8 @@
     },
     {
       "src": "/secrets",
-      "headers": { "cache-control": "s-maxage=1000" },
-      "dest": "/index.html"
+      "status": 308,
+      "headers": { "Location": "./secrets/index.html" }
     }    
   ] 
 }
