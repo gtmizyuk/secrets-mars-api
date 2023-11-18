@@ -4,7 +4,8 @@ const path = require('path');
 const server = jsonServer.create();
 const router = jsonServer.router(path.join(__dirname, 'db.json'));
 const middlewares = jsonServer.defaults({
-  static: path.join(__dirname, './public')
+  static: path.join(__dirname, './public'),
+  "secrets": path.join(__dirname, './secrets')
 });
 const port = process.env.PORT || 3000;
 
