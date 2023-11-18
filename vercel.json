@@ -1,5 +1,4 @@
 { 
-  "version" : 2, 
   "builds" : [ 
     { 
       "src" : "server.js" , 
@@ -13,11 +12,6 @@
     { 
       "src" : "/(.*)" , 
       "dest" : "server.js"
-    },
-    {
-      "src": "/secrets",
-      "status": 308,
-      "headers": { "Location": "./secrets/index.html" }
-    }    
+    } 
   ] 
 }
