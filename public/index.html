@@ -47,7 +47,7 @@
         <div id="custom-routes"></div>
 
         <div>
-          <h1>Приклади запитів</h1>
+          <h1>Приклади простих запитів</h1>
           <table>
               <tr>
                 <td>/mysteries</td>
@@ -128,23 +128,27 @@
               <tr style="border-bottom: 1px dashed #5E81AC;">
                 <td>/mysteries/text/ілюзія</td>
               </tr>
-
-              <tr>
-                <td>/mysteries?id=37&location=Atlantis Chaos</td>
-                <td rowspan="4"><code>⇢</code>за кількома критеріями</td>
-              </tr>
-              <tr>
-                <td>/mysteries?mysterium_like=кріплення&explanation_like=тіні</td>
-              </tr>
-              <tr>
-                <td>/mysteries?missions.0.name=Curiosity Rover&mysterium_like=форма колеса</td>
-              </tr>
-              <tr>
-                <td>/mysteries?missions.0.name=Mars Reconnaissance Orbiter/HiRISE&explanation_like=Фобос</td>
-              </tr>
-              
           </table>
         </div>
+
+        <div>
+          <h1>Приклади складених запитів</h1>
+          <table>
+            <tr>
+              <td>/mysteries?id=37&location=Atlantis Chaos</td>
+              <td rowspan="4"><code>⇢</code>за кількома критеріями</td>
+            </tr>
+            <tr>
+              <td>/mysteries?mysterium_like=кріплення&explanation_like=тіні</td>
+            </tr>
+            <tr>
+              <td>/mysteries?missions.0.name=Curiosity Rover&mysterium_like=форма колеса</td>
+            </tr>
+            <tr>
+              <td>/mysteries?missions.0.name=Mars Reconnaissance Orbiter/HiRISE&explanation_like=Фобос</td>
+            </tr>
+          </table>
+        </div>    
 
       </div>
     </main>
