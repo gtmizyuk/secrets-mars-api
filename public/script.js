@@ -23,7 +23,7 @@ function ResourceList({ db }) {
 }
 
 function NoResources() {
-  return `<p>No resources found</p>`
+  return `<p>Ресурси не знайдено</p>`
 }
 
 function ResourcesBlock({ db }) {
