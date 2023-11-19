@@ -51,18 +51,94 @@
           <table>
               <tr>
                 <td>/mysteries</td>
-                <td rowspan="2"><code>⇢</code>усі дані</td>
+                <td rowspan="2"><code>⇢</code>усіх даних</td>
               </tr>
               <tr>
                 <td>/api/mysteries</td>
               </tr>
+              
               <tr>
                 <td>/mysteries?id=21</td>
-                <td rowspan="2"><code>⇢</code>пошук за id</td>
+                <td rowspan="2"><code>⇢</code>за id таємниці</td>
               </tr>
               <tr>
                 <td>/mysteries/21</td>
               </tr>
+              
+              <tr>
+                <td>/mysteries?title=Посадкове сміття</td>
+                <td rowspan="2"><code>⇢</code>за назвою таємниці</td>
+              </tr>
+              <tr>
+                <td>/mysteries/title/Посадкове сміття</td>
+              </tr>
+
+              <tr>
+                <td>/mysteries?missions.0.name=Curiosity Rover</td>
+                <td rowspan="2"><code>⇢</code>за назвою місії у порядку</td>
+              </tr>
+              <tr>
+                <td>/mysteries/mission-id-name/0/Curiosity Rover</td>
+              </tr>
+
+              <tr>
+                <td>/mysteries?missions.2.date=2006</td>
+                <td rowspan="2"><code>⇢</code>за датою місії у порядку</td>
+              </tr>
+              <tr>
+                <td>/mysteries/mission-id-date/2/2006</td>
+              </tr>
+
+              <tr>
+                <td>/mysteries?location=Cydonia Mensae</td>
+                <td rowspan="2"><code>⇢</code>за назвою локації на планеті</td>
+              </tr>
+              <tr>
+                <td>/mysteries/location/Cydonia Mensae</td>
+              </tr>
+
+              <tr>
+                <td>/mysteries?found=M. J. Craig</td>
+                <td rowspan="2"><code>⇢</code>за ім'я пошуківця</td>
+              </tr>
+              <tr>
+                <td>/mysteries/found/M. J. Craig</td>
+              </tr>
+
+              <tr>
+                <td>/mysteries?mysterium_like=існує</td>
+                <td rowspan="2"><code>⇢</code>за описом таємниці</td>
+              </tr>
+              <tr>
+                <td>/mysteries/mysterium/існує</td>
+              </tr>
+
+              <tr>
+                <td>/mysteries?explanation_like=можливо</td>
+                <td rowspan="2"><code>⇢</code>за описом пояснення</td>
+              </tr>
+              <tr>
+                <td>/mysteries/explanation/можливо</td>
+              </tr>
+
+              <tr>
+                <td>/mysteries?=ілюзія</td>
+                <td rowspan="2"><code>⇢</code>за повним текстом</td>
+              </tr>
+              <tr>
+                <td>/mysteries/text/ілюзія</td>
+              </tr>
+
+              <tr>
+                <td>/mysteries?id=37&location=Atlantis Chaos</td>
+                <td rowspan="4"><code>⇢</code>за кількома критеріями</td>
+              </tr>
+              <tr>
+                <td>/mysteries?mysterium_like=кріплення&explanation_like=тіні</td>
+                <td>/mysteries?missions.0.name=Curiosity Rover&mysterium_like=форма колеса</td>
+                <td>/mysteries?missions.0.name=Mars Reconnaissance Orbiter/HiRISE&explanation_like=Фобос</td>
+              </tr>
+              
           </table>
         </div>
 
