@@ -111,3 +111,6 @@ code {
   border-radius: 0.2rem;
   background: #e5e9f0;
 }
+.alternative-request {
+  border-bottom: 1px dashed #5E81AC;
+}
