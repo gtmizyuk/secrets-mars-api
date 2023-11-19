@@ -18,7 +18,7 @@ server.use(jsonServer.rewriter({
   "/mysteries/found/:found": "/mysteries?found=:found",
   "/mysteries/mysterium/:mysterium": "/mysteries?mysterium_like=:mysterium",
   "/mysteries/explanation/:explanation": "/mysteries?explanation_like=:explanation",
-  "/mysteries/:text": "/mysteries?q=:text"
+  "/mysteries/text/:text": "/mysteries?q=:text"
 }))
 server.use(router)
 server.listen(port, () => {
